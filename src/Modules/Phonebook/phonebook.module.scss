@@ -1,0 +1,70 @@
+.div {
+  width: calc(35%);
+  padding: 10px 15px;
+  margin: 25px auto;
+  background-color: #cdd6f4;
+  border: 2px solid #787878;
+  border-radius: 3px 15px 15px 3px;
+  align-content: center;
+  align-items: center;
+}
+
+.mainTitle {
+  font-size: 26px;
+  margin-left: 15px;
+  text-align: center;
+}
+
+
+.find {
+  width: calc(80%);
+  margin: 25px auto;
+  padding: 15px;
+  border: 1px solid rgb(30, 17, 17);
+  border-radius: 3px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.input {
+  width: calc(70%);
+  padding: 3px 10px;
+  border: 1px solid rgb(30, 17, 17);
+  border-radius: 3px;
+  &:focus {
+    border: 1px solid rgb(45, 24, 240);
+  }
+}
+
+.btn {
+  padding: 5px 12px;
+  border: 1px solid #333;
+  border-radius: 3px;
+  background-color: rgb(30, 51, 236);
+  &:focus,
+  :hover {
+    background-color: rgb(231, 7, 7);
+  }
+}
+
+.deleteBtn {
+  margin-left: 5px;
+  background-color: rgb(252, 135, 135);
+  color: #fff;
+}
+
+.li {display: flex;
+  margin-bottom: 5px;
+  justify-content: space-between;
+}
